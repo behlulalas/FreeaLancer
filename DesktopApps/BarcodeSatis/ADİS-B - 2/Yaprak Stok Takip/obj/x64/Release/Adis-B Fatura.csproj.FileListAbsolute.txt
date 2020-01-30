@@ -1,0 +1,41 @@
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\bin\x64\Release\Yaprak Stok Takip.exe.config
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\bin\x64\Release\Yaprak Stok Takip.exe
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\bin\x64\Release\Yaprak Stok Takip.pdb
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\bin\x64\Release\MySql.Data.dll
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\bin\x64\Release\MySql.Data.xml
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.Form1.resources
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.Properties.Resources.resources
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\obj\x64\Release\Adis-B Fatura.csproj.GenerateResource.Cache
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\obj\x64\Release\Adis-B Fatura.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\obj\x64\Release\Yaprak Stok Takip.exe
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\obj\x64\Release\Yaprak Stok Takip.pdb
+C:\Users\HP\source\repos\ADİS-B\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.Form2.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\bin\x64\Release\Yaprak Stok Takip.exe.config
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\bin\x64\Release\Yaprak Stok Takip.exe
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\bin\x64\Release\Yaprak Stok Takip.pdb
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\bin\x64\Release\MySql.Data.dll
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\bin\x64\Release\MySql.Data.xml
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.aylik.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.Form1.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.Form2.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.gunluk.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.haftalik.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.Properties.Resources.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.yillik.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Adis-B Fatura.csproj.GenerateResource.Cache
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Adis-B Fatura.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak Stok Takip.exe
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak Stok Takip.pdb
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.frmguncelle.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.frmstok.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.ozelgiris.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.yeniEkle.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.kthimit.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.ozelgiris1.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.ozelgiris2.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.ozelgiris3.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.ozelgiris4.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.ozelgiris5.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.ozelgiris6.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Yaprak_Stok_Takip.ozelgiris7.resources
+C:\Users\HP\source\repos\ADİS-B - 2\Yaprak Stok Takip\obj\x64\Release\Adis-B Fatura.csproj.CopyComplete
