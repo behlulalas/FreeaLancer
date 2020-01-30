@@ -1,0 +1,49 @@
+﻿@model SoftwareCourse.Models.Courses
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Kurs Sil</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Silmek istediğinize emin misiniz ?</h3>
+        <div>
+            <h4>Kurslar</h4>
+            <hr />
+            <dl class="dl-horizontal mx-auto">
+                <dt>
+                    @Html.DisplayNameFor(model => model.CourseName)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.CourseName)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.CourseDescription)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.CourseDescription)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.CourseTeacher)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.CourseTeacher)
+                </dd>
+            </dl>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="CourseID" />
+                <input type="submit" value="Sil" class="btn btn-default" /> |
+                <a asp-action="Index">Listeyi gör</a>
+            </form>
+        </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<SoftwareCourse.Models.Courses>
+
+@{
+  Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml"; 
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Kurslar</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <p>
+            <a asp-action="Create">Yeni Kurs Ekle</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CourseName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CourseDescription)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CourseTeacher)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CourseName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CourseDescription)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CourseTeacher)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.CourseID">Düzenle</a> |
+                            <a asp-action="Details" asp-route-id="@item.CourseID">Detaylar</a> |
+                            <a asp-action="Delete" asp-route-id="@item.CourseID">Sil</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        </div>
+</body>
+</html>

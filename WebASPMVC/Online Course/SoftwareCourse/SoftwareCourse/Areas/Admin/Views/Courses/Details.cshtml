@@ -1,0 +1,46 @@
+﻿@model SoftwareCourse.Models.Courses
+
+@{
+    Layout =  "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detaylar</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h4>Kurslar</h4>
+            <hr />
+            <dl class="dl-horizontal mx-auto">
+                <dt>
+                    @Html.DisplayNameFor(model => model.CourseName)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.CourseName)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.CourseDescription)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.CourseDescription)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.CourseTeacher)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.CourseTeacher)
+                </dd>
+            </dl>
+        </div>
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model.CourseID">Düzenle</a> |
+            <a asp-action="Index">Listeyi gör.</a>
+        </div>
+        </div>
+</body>
+</html>

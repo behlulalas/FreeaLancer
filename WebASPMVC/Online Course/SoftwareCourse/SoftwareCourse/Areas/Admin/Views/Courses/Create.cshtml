@@ -1,0 +1,48 @@
+﻿@model SoftwareCourse.Models.Courses
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Yeni Kurs Ekle</title>
+</head>
+<body>
+    <div class="container">
+        <h4>Kurs Ekle</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4 mx-auto">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="CourseName" class="control-label"></label>
+                        <input asp-for="CourseName" class="form-control" />
+                        <span asp-validation-for="CourseName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CourseDescription" class="control-label"></label>
+                        <input asp-for="CourseDescription" class="form-control" />
+                        <span asp-validation-for="CourseDescription" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CourseTeacher" class="control-label"></label>
+                        <input asp-for="CourseTeacher" class="form-control" />
+                        <span asp-validation-for="CourseTeacher" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Ekle" class="btn btn-default" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a asp-action="Index">Listeyi gör.</a>
+        </div>
+        </div>
+</body>
+</html>
