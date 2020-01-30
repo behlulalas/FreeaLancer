@@ -1,0 +1,58 @@
+﻿
+
+@model IEnumerable<HaliSaha.Models.Rezervasyon>
+
+@{
+    ViewBag.Title = "Profilim";
+}
+
+<h2>Profilim</h2>
+
+<p>
+    @Html.ActionLink("Yeni Rezervasyon ", "Rezervasyon")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.adsoyad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.telefon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tarih)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.saat)
+        </th>
+        <th></th>
+    </tr>
+
+@if (Model!=null)
+{
+
+
+    foreach (var item in Model)
+    { 
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.adsoyad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.telefon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tarih)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.saat)
+        </td>
+        <td>
+           
+        </td>
+    </tr>
+}
+    }
+<h2>Rezervasyon Adeti: @Model.Count()</h2>
+
+</table>

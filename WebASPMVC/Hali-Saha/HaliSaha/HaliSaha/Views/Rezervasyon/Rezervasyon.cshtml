@@ -1,0 +1,132 @@
+﻿
+@model Tuple< List<HaliSaha.Models.Rezervasyon>,List<HaliSaha.Models.Saatler>>
+
+
+@{
+    ViewBag.Title = "Rezervasyon";
+}
+<div class="container">
+    <div class="col-md-6">
+        <h2>Rezervasyon Yapmak için Formu Doldurun</h2>
+        <br />
+        <br />
+        <form action="/Rezervasyon/Rezervasyon" method="post">
+
+
+            <div class="row">
+
+                <div class="form-group">
+                    <div class="col-md-7">
+                        <label>Adınız Soyadınız</label>
+                        <input type="text" placeholder="Adınız Soyadınız" name="ad" id="ad" class="form-control input-lg" required>
+
+                    </div>
+
+                </div>
+            </div>
+            <br />
+            <div class="row">
+
+                <div class="form-group">
+                    <div class="col-md-7">
+                        <label>Telefon</label>
+                        <input type="text" placeholder="Telefon" name="telefon" id="telefon" class="form-control input-lg" required>
+
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+
+                <div class="form-group">
+                    <div class="col-md-7">
+                        <label>Tarih Seç</label>
+                        <input type="date" name="tarih" id="tarih" class="form-control input-lg" required>
+
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+
+                <div class="form-group">
+                    <div class="col-md-7">
+                        <label>Saat Seç</label>
+                       
+                        <select class="form-control input-lg" name="saat" required>
+                            
+                                @foreach (var item in Model.Item2)
+                                {
+
+
+                                  <option>@item.saat</option>
+
+
+                                }
+                            
+                        </select>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <br />
+            <input type="submit" name="ara" value="Rezervasyon Yap" class="btn btn-primary">
+            <br />
+            
+
+        </form>
+        <br />
+        <br />
+        <br />
+        <label style="color:red">@ViewBag.Hatamesaj .</label>
+
+    </div>
+    <div class="col-md-6">
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <table class="table">
+            <tr>
+                <th>
+                    Rezervasyon No
+                </th>
+                <th>
+                    Tarih
+                </th>
+                <th>
+                   Saat
+                </th>
+                <th>Durum</th>
+            </tr>
+            @if (Model!=null)
+            {
+
+            
+            foreach (var item in Model.Item1)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RezervasyonID)
+                    </td>
+                  
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tarih.Day)
+                        .
+                        @Html.DisplayFor(modelItem => item.tarih.Month)
+                        .
+                        @Html.DisplayFor(modelItem => item.tarih.Year)
+                        
+                      
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.saat)
+                    </td>
+                    <td>
+                       <p style="color:red;">Dolu.</p>
+                    </td>
+                </tr>
+            }
+            }
+        </table>
+      
+    </div>
+</div>
