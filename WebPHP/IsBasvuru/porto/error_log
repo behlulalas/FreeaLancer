@@ -1,0 +1,184 @@
+[10-May-2018 21:31:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php:6
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php(6): PDO->__construct('mysql:host=loca...', 'root', 'mamusa123')
+#1 /home/z8lo8qn61k78/public_html/header.php(2): include('/home/z8lo8qn61...')
+#2 /home/z8lo8qn61k78/public_html/index.php(3): include('/home/z8lo8qn61...')
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php on line 6
+[10-May-2018 21:31:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php:6
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php(6): PDO->__construct('mysql:host=loca...', 'root', 'mamusa123')
+#1 /home/z8lo8qn61k78/public_html/header.php(2): include('/home/z8lo8qn61...')
+#2 /home/z8lo8qn61k78/public_html/index.php(3): include('/home/z8lo8qn61...')
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php on line 6
+[10-May-2018 21:32:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php:6
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php(6): PDO->__construct('mysql:host=loca...', 'root', 'mamusa123')
+#1 /home/z8lo8qn61k78/public_html/header.php(2): include('/home/z8lo8qn61...')
+#2 /home/z8lo8qn61k78/public_html/index.php(3): include('/home/z8lo8qn61...')
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php on line 6
+[10-May-2018 21:32:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php:6
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php(6): PDO->__construct('mysql:host=loca...', 'root', 'mamusa123')
+#1 /home/z8lo8qn61k78/public_html/header.php(2): include('/home/z8lo8qn61...')
+#2 /home/z8lo8qn61k78/public_html/index.php(3): include('/home/z8lo8qn61...')
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php on line 6
+[10-May-2018 21:48:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhost:3306' (0) in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php:5
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php(5): PDO->__construct('mysql:host=loca...', 'behlulsala1', 'mamusa123')
+#1 /home/z8lo8qn61k78/public_html/header.php(2): include('/home/z8lo8qn61...')
+#2 /home/z8lo8qn61k78/public_html/index.php(3): include('/home/z8lo8qn61...')
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php on line 5
+[10-May-2018 21:53:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhost:3306' (0) in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php:5
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php(5): PDO->__construct('mysql:host=loca...', 'behlulsala1', 'mamusa123')
+#1 /home/z8lo8qn61k78/public_html/header.php(2): include('/home/z8lo8qn61...')
+#2 /home/z8lo8qn61k78/public_html/index.php(3): include('/home/z8lo8qn61...')
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/nedmin/netting/baglan.php on line 5
+[10-May-2018 21:56:42 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 21:56:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 21:57:19 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 21:57:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 21:58:50 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 21:58:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 21:58:53 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 21:58:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:02:16 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:02:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:02:18 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:02:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:36 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:37 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:38 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:38 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:38 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:04:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:05:54 UTC] PHP Notice:  Undefined variable: db in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:05:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/z8lo8qn61k78/public_html/header.php:4
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/index.php(3): include()
+#1 {main}
+  thrown in /home/z8lo8qn61k78/public_html/header.php on line 4
+[10-May-2018 22:07:01 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Thu, 10 M...', 'Merhaba\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(40): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
+[10-May-2018 22:07:17 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Thu, 10 M...', 'Merhaba\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(40): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
+[10-May-2018 22:19:14 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Thu, 10 M...', 'Selamn\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(40): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
+[10-May-2018 22:22:41 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Thu, 10 M...', 'deneme\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(40): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
+[10-May-2018 23:03:03 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Thu, 10 M...', 'Deneme\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(40): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
+[11-May-2018 00:15:56 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Fri, 11 M...', 'Deneme\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(40): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
+[11-May-2018 04:43:22 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Fri, 11 M...', 'Deneme\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(40): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
+[11-May-2018 13:37:49 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Fri, 11 M...', 'Kosova\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(40): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
+[11-May-2018 13:49:31 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Fri, 11 M...', 'Deneme\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(79): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
+[11-May-2018 13:53:28 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php:1219
+Stack trace:
+#0 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(1062): PHPMailer->smtpSend('Date: Fri, 11 M...', 'Deneme\n')
+#1 /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php(969): PHPMailer->postSend()
+#2 /home/z8lo8qn61k78/public_html/iletisim.php(150): PHPMailer->send()
+#3 {main}
+  thrown in /home/z8lo8qn61k78/public_html/mail/class.phpmailer.php on line 1219
