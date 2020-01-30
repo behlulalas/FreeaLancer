@@ -1,0 +1,22 @@
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\bin\x86\Debug\Yaprak Stok Takip.exe.config
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\bin\x86\Debug\Yaprak Stok Takip.exe
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\bin\x86\Debug\Yaprak Stok Takip.pdb
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\bin\x86\Debug\MySql.Data.dll
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\bin\x86\Debug\MySql.Data.xml
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\obj\x86\Debug\Yaprak_Stok_Takip.Form1.resources
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\obj\x86\Debug\Yaprak_Stok_Takip.Properties.Resources.resources
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\obj\x86\Debug\Yaprak Stok Takip.csproj.GenerateResource.Cache
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\obj\x86\Debug\Yaprak Stok Takip.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\obj\x86\Debug\Yaprak Stok Takip.exe
+C:\Users\HP\source\repos\Yaprak Stok Takip\Yaprak Stok Takip\obj\x86\Debug\Yaprak Stok Takip.pdb
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\bin\x86\Debug\Yaprak Stok Takip.exe.config
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\bin\x86\Debug\Yaprak Stok Takip.exe
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\bin\x86\Debug\Yaprak Stok Takip.pdb
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\bin\x86\Debug\MySql.Data.dll
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\bin\x86\Debug\MySql.Data.xml
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\obj\x86\Debug\Yaprak_Stok_Takip.Form1.resources
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\obj\x86\Debug\Yaprak_Stok_Takip.Properties.Resources.resources
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\obj\x86\Debug\Yaprak Stok Takip.csproj.GenerateResource.Cache
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\obj\x86\Debug\Yaprak Stok Takip.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\obj\x86\Debug\Yaprak Stok Takip.exe
+C:\Users\HP\source\repos\Yaprak Stok Takip 2\Yaprak Stok Takip\obj\x86\Debug\Yaprak Stok Takip.pdb
